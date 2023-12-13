@@ -17,7 +17,9 @@ library(splines)
 library(shinyWidgets)
 library(devtools)
 library(normBRAIN)
-
+# download options : Need to put this before
+#options(download.file.method = "wininet")
+#OPTION INTERNET TLS 1.1 1.2 1.3
 ui<-fluidPage(
   navbarPage(title = " ",
              tabPanel(h4("Normative curves"),
