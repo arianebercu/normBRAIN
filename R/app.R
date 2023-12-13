@@ -9,7 +9,7 @@
 
 app <- function() {
   name<-"app.R"
-  appDir <- system.file(paste0("inst/apps/", name), package = "normBRAIN")
+  appDir <- system.file(paste0("apps/", name), package = "normBRAIN")
   shiny::runApp(appDir)
 
 }
